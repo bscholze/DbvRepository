@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e2381da9-6d6a-4dff-9a06-4af65eb45279" ChangeDateTime="06/18/2015 22:36:35">
+    <Property Name="ElementName" Value="[dbo].[DBV_REPOSITORY].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DBV_REPOSITORY]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="246f8502-07a4-4da8-aae6-b477407c0118" ChangeDateTime="08/05/2015 00:54:44">
+    <Property Name="ElementName" Value="[dbo].[DBV_REPOSITORY].[USER]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DBV_REPOSITORY]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c369b5b9-4220-492b-8a20-cce7a231a0c1" ChangeDateTime="08/05/2015 00:55:01">
+    <Property Name="ElementName" Value="[dbo].[DBV_REPOSITORY].[UserName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DBV_REPOSITORY]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="USER_NAME" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="96681ed7-9b16-421c-9163-5ae9802de58e" ChangeDateTime="08/05/2015 00:55:19">
+    <Property Name="ElementName" Value="[dbo].[DBV_REPOSITORY].[IMAGE]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DBV_REPOSITORY]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DATA" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4b304027-35c3-407a-b40c-c098b74f7b19" ChangeDateTime="08/05/2015 01:04:31">
+    <Property Name="ElementName" Value="[dbo].[DBV_REPOSITORY].[USER_NAME]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DBV_REPOSITORY]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="USERNAME" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f2b57c81-d3a8-4df8-8f7a-e0273279bb66" ChangeDateTime="08/05/2015 01:04:42">
+    <Property Name="ElementName" Value="[dbo].[DBV_REPOSITORY].[CREATED_TMS]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DBV_REPOSITORY]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CREATEDTMS" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="30be219f-2dec-4aa0-a858-047fb0916843" ChangeDateTime="08/06/2015 21:43:36">
+    <Property Name="ElementName" Value="[dbo].[DBV_REVISION_STORE].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DBV_REVISION_STORE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="REVISION" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dc08b802-a0cc-4cf2-b028-788db16564f4" ChangeDateTime="08/08/2015 06:44:41">
+    <Property Name="ElementName" Value="[dbo].[CK_DBV_REVISION_STORE_Column]" />
+    <Property Name="ElementType" Value="SqlCheckConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[DBV_REVISION_STORE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[CK_DBV_REVISION_STORE_DELETED]" />
+  </Operation>
+</Operations>
